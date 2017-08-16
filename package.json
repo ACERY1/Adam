@@ -1,7 +1,7 @@
 {
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --devtool eval --progress --colors --inline --hot --content-base build"
+    "test": "bnode index.js "
   },
   "devDependencies": {
     "babel-generator": "^6.25.0",
